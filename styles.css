@@ -3,5 +3,110 @@ body {
     background-color: #191919;
 }
 #navbar {
-    background-color: #303030;
+    background-color: rgba(48,48,48,0.5);
+    position: sticky;
+    height: 56px;
+}
+
+#nav-start {
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+}
+
+#hamburger {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.hamburger-layer {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin-top: 3px;
+  } 
+
+  #youtube-logo {
+      width: 80px;
+      height: 100%;
+      cursor: pointer;
+  }
+
+  #logo {
+    margin-top: -50px;
+    margin-left: 80px;
+  }
+
+  #search-bar {
+      width: 575px;
+      height: 27px;
+      margin-right: 120px;
+      background-color: rgba(0,0,0,0.2);
+      border-style: solid;
+      border: 1px solid rgba(48,48,48,0.9);
+      font-size: 16px;
+      padding-left: 10px;
+      color: white;
+      border-radius: 1px;
+  }
+
+  #search-bar:focus {
+    outline: 1px solid rgba(13, 75, 245, 0.5);
+  }
+
+  .nav-center {
+      text-align: center;
+      margin-top: -35px;
+  }
+
+  #search-btn {
+      position: absolute;
+      width: 65px;
+      height: 30px;
+      margin-top:1px;
+      background-color:grey;
+      border-style: solid;
+      margin-left: -125px;
+      border-radius: 1px;
+      cursor: pointer;
+  }
+
+  .nav-end {
+      margin-right: 50px;
+      margin-top: -22px;
+      float: right;
+  }
+  
+  #create {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+  }
+
+  #apps {
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: -30px;
+    cursor: pointer;
+  }
+
+  #settings {
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+  #sign-in {
+    width: 30px;
+    height: 30px;
+    width: 30px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: -30px;
+    cursor: pointer;
 }
